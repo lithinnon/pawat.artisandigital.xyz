@@ -13,8 +13,6 @@ jobs:
           persist-credentials: false
       - name: Build
         run: |
-          # mkdir build
-          # rsync -a src/ build/
           cd frontend
           yarn
           yarn build
